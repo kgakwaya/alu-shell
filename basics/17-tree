@@ -1,0 +1,3 @@
+#!/bin/bash
+
+mkird -p welcome/to/school
