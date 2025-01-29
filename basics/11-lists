@@ -1,1 +1,7 @@
-chmod +x 11-lists
+#!/bin/bash
+
+# List all files (including hidden ones) in long format for each directory in the required order
+ls -la
+ls -la ..
+ls -la /boot
+
