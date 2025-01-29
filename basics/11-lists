@@ -1,7 +1,2 @@
-#!/bin/bash
-
-# List all files (including hidden ones) in long format for each directory in the required order
-ls -la
-ls -la ..
-ls -la /boot
-
+#!/bin/bash/
+Ls -la .  ..  /boot
