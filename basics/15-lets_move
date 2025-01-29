@@ -1,8 +1,2 @@
 #!/bin/bash
-# Move all files starting with an uppercase letter to the /tmp/u directory
-
-for file in *; do
-  if [[ -f "$file" && "$file" =~ ^[A-Z] ]]; then
-    mv "$file" /tmp/u/
-  fi
-done
+mv [A-Z]* /tmp/u
